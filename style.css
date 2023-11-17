@@ -1,0 +1,166 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.background {
+    background-color: #1F2937;
+}
+
+div{
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#logo {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.part1{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: left;
+align-items: center;
+margin-left: 3vw;
+color: #f9faf8;
+flex-wrap: wrap;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.welcome-menssage {
+    max-width: 400px;
+    font-size: 1.5em;
+}
+
+#car-red {
+    background-color: gray;
+    max-width: 300px;
+    min-width: 100px;
+    margin: 20px;
+    image-rendering: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.first{
+    background-image: url(https://images.pexels.com/photos/1213294/pexels-photo-1213294.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    min-height: 50px;
+    width: auto;
+}
+
+.box {
+    border: solid black 3px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.first-cars {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.second {
+    background-image: url(https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+.three {
+    background-image: url(https://images.pexels.com/photos/5641197/pexels-photo-5641197.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+}
+
+.forth {
+    background-image: url(https://images.pexels.com/photos/12906306/pexels-photo-12906306.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+}
+
+.text-image {
+    max-width: 160px;
+    text-align: center;
+    margin: auto;
+}
+
+.part3 {
+    min-height: 300px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 215);
+}
+
+#buttonCallToAction {
+    background-color: #00284ed5;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.part4 {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
