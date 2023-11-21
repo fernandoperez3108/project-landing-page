@@ -1,166 +1,177 @@
 body {
-    margin: auto;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
     text-align: center;
+    font-family: 'Roboto', arial;
 }
 
-.background {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    color: #F9FAF8;
     background-color: #1F2937;
+    padding: 20px 0px 20px 50px;
+    align-items: center;
 }
 
-div{
-    display: block;
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
 }
 
-header {
-    display: block;
-}
-
-.header-container {
+.header-link {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 5vh;
-    color: white;
+    margin-left: auto;
+    padding: 0px 50px 0px 0px;  
 }
 
-a {
-    color: white;
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
 
-#logo {
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-header ul {
-    list-style: none;
+.hero {
     display: flex;
-    gap: 10px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 
-.part1{
+.hero-cta {
+    flex-basis: 400px;
     display: flex;
-flex-direction: row;
-justify-content: space-around;
-text-align: left;
-align-items: center;
-margin-left: 3vw;
-color: #f9faf8;
-flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 250px;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.hero-cta p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
 }
 
 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero button {
     display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.welcome-menssage {
-    max-width: 400px;
-    font-size: 1.5em;
+.hero-image img {
+    width: 500px;
+    height: 350px;
 }
 
-#car-red {
-    background-color: gray;
-    max-width: 300px;
-    min-width: 100px;
-    margin: 20px;
-    image-rendering: auto;
-    height: auto;
-    border-radius: 10px;
-}
-.first{
-    background-image: url(https://images.pexels.com/photos/1213294/pexels-photo-1213294.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    background-size: cover;
-    min-height: 50px;
-    width: auto;
+.content {
+    align-items: center;
 }
 
-.box {
-    border: solid black 3px;
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.first-cars {
+.content-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #000000;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
 
-.second {
-    background-image: url(https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-}
-
-.three {
-    background-image: url(https://images.pexels.com/photos/5641197/pexels-photo-5641197.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    background-size: cover;
-}
-
-.forth {
-    background-image: url(https://images.pexels.com/photos/12906306/pexels-photo-12906306.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    background-size: cover;
-}
-
-.text-image {
-    max-width: 160px;
-    text-align: center;
-    margin: auto;
-}
-
-.part3 {
-    min-height: 300px;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(215, 215, 215);
-}
-
-#buttonCallToAction {
-    background-color: #00284ed5;
-    color: white;
-    border-radius: 5px;
-    padding: 20px;
-    padding-bottom: 30px;
-    font-size: 1.2em;
-    max-width: 800px;
+.quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 0 200px;
 }
 
-.part4 {
-    min-height: 300px;
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }

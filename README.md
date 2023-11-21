@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# Landign Page
 
 > One paragraph statement about the project.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fernandoperez3108.github.io/project-landing-page)
 
 
 ## Getting Started
